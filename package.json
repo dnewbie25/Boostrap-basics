@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-basics",
+  "version": "1.0.0",
+  "description": "bootstrap basics",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnewbie25/NPM-basics-commands.git"
+  },
+  "author": "Daniel Montoya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnewbie25/NPM-basics-commands/issues"
+  },
+  "homepage": "https://github.com/dnewbie25/NPM-basics-commands#readme"
+}
