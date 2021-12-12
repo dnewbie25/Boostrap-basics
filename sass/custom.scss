@@ -1,0 +1,67 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+$font-family-sans-serif:'Barlow Semi Condensed',
+sans-serif;
+
+.card {
+    height: 100%;
+    color: white;
+
+    img {
+        width: 5rem;
+    }
+}
+
+main {
+    @media (min-width:991px) {
+        height: 100vh;
+    }
+}
+
+.card-body{
+    box-shadow: 0px 0px 10px hsl(219, 29%, 14%);
+}
+
+.one {
+    background-image: url('../testimonials-grid-section-main/images/bg-pattern-quotation.svg');
+    background-position: top right 20%;
+    background-repeat: no-repeat;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.three {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
+.four {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.five {
+    background-color: hsl(0, 0%, 81%);
+    color: black;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+);
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer * .65,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);

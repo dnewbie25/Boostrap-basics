@@ -11,7 +11,8 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "purge": "purgecss --css css/custom.css --content index.html -o css/minimized.css"
   },
   "repository": {
     "type": "git",
